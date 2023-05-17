@@ -19,13 +19,18 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 90%;
   overflow-x: hidden;
 }
 
 body {
   background: var(--bg-color);
   color: var(--text-color);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
 }
 
 .header {
@@ -52,4 +57,49 @@ body {
   font-size: 1.7rem;
   color: var(--text-color);
   margin-left: 4rem;
+  transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active  {
+    color: var(--main-color);
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+}
+
+.home-img img {
+width: 35vw;
+margin-left: 10rem;
+
+}
+
+
+.home-content h3 {
+font-size: 3.2rem;
+font-weight: 700;
+ white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.home-content h1 {
+font-size: 5.6rem;
+font-weight: 700;
+line-height: 1.3;
+}
+
+.home-content p {
+    font-size
 }
