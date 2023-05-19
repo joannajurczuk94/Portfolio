@@ -358,7 +358,7 @@ span {
 }
 
 .contact form .input-box input {
-  width: 50%;
+  width: 49%;
 }
 
 .contact form textarea {
@@ -368,6 +368,14 @@ span {
 .contact form .btn {
   margin-top: 2rem;
   cursor: pointer;
+}
+
+.contact form .input-box input::placeholder {
+  color: white; /* Set the color of the placeholder text to white */
+}
+.contact form textarea::placeholder,
+.contact form textarea {
+  color: white; /* Set the color of the placeholder text and the text in the <textarea> element to white */
 }
 
 .footer {
