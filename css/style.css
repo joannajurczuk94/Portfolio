@@ -12,10 +12,10 @@
 }
 
 :root {
-  --bg-color: #1f242d;
-  --second-bg-color: #323946;
+  --bg-color: #055354;
+  --second-bg-color: #007072;
   --text-color: #fff;
-  --main-color: #0ef;
+  --main-color: rgb(255, 226, 5);
 }
 
 html {
@@ -85,7 +85,7 @@ section {
   width: 35vw;
   animation: floatImage 4s ease-in-out infinite;
   border-radius: 50%; /* Make the border circular */
-  box-shadow: 0 0 10rem var(--main-color);
+  /* box-shadow: 0 0 10rem var(--main-color); */
   font-size: 1.6rem;
   /* margin-left: 10rem; */
 }
@@ -176,7 +176,7 @@ span {
 .about-img img {
   width: 35vw;
   border-radius: 50%; /* Make the border circular */
-  box-shadow: 0 0 1rem var(--main-color);
+  /* box-shadow: 0 0 1rem var(--main-color); */
   font-size: 1.6rem;
   margin-right: 6rem;
 }
