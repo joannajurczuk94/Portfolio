@@ -176,7 +176,7 @@ span {
 .about-img img {
   width: 35vw;
   border-radius: 50%; /* Make the border circular */
- border: 1.5rem solid rgb(0, 251, 255);
+  box-shadow: 0 0 1rem var(--main-color);
   font-size: 1.6rem;
   margin-right: 6rem;
 }
