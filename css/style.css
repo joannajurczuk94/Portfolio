@@ -300,7 +300,7 @@ span {
   box-shadow: 0 0 2rem var(--bg-color);
   overflow: hidden;
   display: flex;
-  height: 300px; /* Adjust the height as needed */
+  height: 350px; /* Adjust the height as needed */
 }
 
 .portfolio-layer h4 {
